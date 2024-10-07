@@ -1,0 +1,17 @@
+{
+ "header" : 
+ {
+    "subtitle" : "Hola soy,",
+     "title" : "Alberto Guallart",
+     "mono" : "marketing y programador" 
+ } ,
+ -"Menu" : 
+ {
+    "item-1" : "inicio",
+    "item-2" : "resumen",
+    "item-3" : "portfolio",
+    "item-4" : "sobre mi"
+
+ }
+
+}
