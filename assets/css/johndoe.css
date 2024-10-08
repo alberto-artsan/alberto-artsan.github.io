@@ -72,6 +72,44 @@ body {
   background-color: #fff;
 }
 
+/* Estilos del contenedor del menú */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Estilos del contenido del menú desplegable */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Estilos para los elementos del menú */
+.dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Cambiar color al pasar el cursor sobre los enlaces */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Mostrar el menú cuando se hace hover sobre el contenedor */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Cambiar el color del botón al hacer hover */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+/* fin de estilo de drop down menus*/
+
 [tabindex="-1"]:focus {
   outline: 0 !important;
 }
@@ -593,6 +631,7 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  margin-top: 50px;
 }
 
 .row {
